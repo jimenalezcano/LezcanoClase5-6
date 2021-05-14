@@ -24,7 +24,6 @@ const cliente = {
     direccion: prompt("Ingrese su direccion"),
     entrega: ubicacion, 
     pago: prompt("Elija metodo de pago: MercadoPago/ debito / efecto"),
-    pedido: [ ]
 }
 
 console.log(cliente)
