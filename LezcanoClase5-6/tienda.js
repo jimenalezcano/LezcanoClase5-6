@@ -14,7 +14,7 @@ if (ubicacion == ("Palermo") || (ubicacion== "Recoleta") || (ubicacion == "Almag
    alert("Lo siento! No realizamos envios hasta tu zona,de todas maneras, podes ver los productos y acercarte a la sucursal")
 }
 
-// Creo objetos donde 
+// Creo objetos con informacion que da el usuario 
 
 const cliente = {
     nombre: datos,
@@ -30,7 +30,7 @@ const cliente = {
 console.log(cliente)
 
 
-//Creo lista de productos de categoria Maquillaje, marca Maybelline
+//Creo objetos para lista de productos de categoria Maquillaje, marca Maybelline
 
 const producto1 = {
     categoria: "Maquillaje",
@@ -56,7 +56,7 @@ const producto3 = {
     precio: 1000,
 }
 
-//Junto productos en un array
+//Junto productos categoria Maquillaje Marca Maybelinne en un array
 
 const labialesMaybelline = [ producto1 , producto2 , producto3]
 
